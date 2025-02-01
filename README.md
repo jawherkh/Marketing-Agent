@@ -12,8 +12,8 @@ This project is a marketing agent that scrapes contact information of marketing 
 ## Setup
 1. **Clone the repository:**
     ```sh
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone [<repository-url>](https://github.com/jawherkh/Marketing-Agent).git
+    cd Marketing-Agent
     ```
 
 2. **Install dependencies:**
