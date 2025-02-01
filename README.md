@@ -1,18 +1,19 @@
 # Marketing Agent
 
 ## Overview
-This project is a marketing agent that scrapes contact information of marketing managers from various tech company websites, summarizes the content of these websites, and generates personalized emails for the marketing managers.(PS: You can change the title of the managers, not just marketing)
+This project is a marketing agent that scrapes the contact information of marketing managers from various tech company websites, summarizes the content of these websites, and generates personalized emails for the marketing managers. (PS: You can change the title of the managers, not just marketing)
 
 ## Project Structure
 - `main.py`: The main script that orchestrates the entire process.
 - `utils/db.py`: Contains functions to create the database and save contact information and emails.
 - `utils/helper_functions.py`: Contains helper functions for web scraping, summarizing content, and generating personalized emails.
 - `utils/agents.py`: Contains functions to generate summaries and emails using an AI model.
+- `Dockerfile`: Docker file to containerize the application, making it easier to deploy and run in different environments.
 
 ## Setup
 1. **Clone the repository:**
     ```sh
-    git clone [<repository-url>](https://github.com/jawherkh/Marketing-Agent).git
+    git clone https://github.com/jawherkh/Marketing-Agent.git
     cd Marketing-Agent
     ```
 
@@ -100,5 +101,5 @@ This project is a marketing agent that scrapes contact information of marketing 
 - The code includes error handling for database operations and web scraping to ensure the program continues running even if an error occurs.
 
 ## Notes
-- Ensure you have a stable internet connection as the script involves web scraping and API calls.
+- Please ensure you have a stable internet connection as the script involves web scraping and API calls.
 - The database `marketing_agent.db` will be created in the same directory as the script if it does not exist.
