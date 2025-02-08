@@ -75,27 +75,6 @@ This project is a marketing agent that scrapes the contact information of market
             print(f"An error occurred: {e}")
     ```
 
-## Testing
-- **Unit Tests:**
-    The project is configured to use `unittest`. Ensure your test files are named with the pattern `*test.py`.
-    ```json
-    {
-        "python.testing.unittestArgs": [
-            "-v",
-            "-s",
-            ".",
-            "-p",
-            "*test.py"
-        ],
-        "python.testing.pytestEnabled": false,
-        "python.testing.unittestEnabled": true
-    }
-    ```
-
-    To run the tests:
-    ```sh
-    python -m unittest discover
-    ```
 
 ## Error Handling
 - The code includes error handling for database operations and web scraping to ensure the program continues running even if an error occurs.
